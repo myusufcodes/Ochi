@@ -8,3 +8,18 @@
   font-family: font2;
   src: url(../public/FoundersGrotesk-Semibold.ttf);   
 }
+
+
+.marquee-container {
+    animation: marquee 10s linear 0s infinite;
+  }
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
