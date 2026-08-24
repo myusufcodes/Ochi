@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import About from './sections/About'
 import Hero from './sections/Hero'
 import Marquee from './sections/Marquee'
 
@@ -9,6 +10,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <Marquee />
+        <About />
       </section>
     </main>
   )

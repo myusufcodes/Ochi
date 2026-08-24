@@ -3,7 +3,7 @@ const NavBtn = ({title, href}) => {
         <a href={href} className='group relative h-[30px] text-center px-1 font-[font1] font-light transition-all duration-300 overflow-hidden text-lg'>
             <div className='group-hover:translate-y-[-30px] transition-all duration-300'>{title}</div>
             <div className='group-hover:translate-y-[-28px] transition-all duration-300'>{title}</div>
-            <div className="absolute h-[1px] w-0 group-hover:w-[100%] transition-all duration-300 bg-[#212121] left-0 right-0 bottom-0"></div>
+            <div className="absolute h-[1px] w-0 group-hover:w-[100%] transition-all duration-300 bg-[#212121] left-0 right-0 bottom-0" />
         </a>
     )
 }
