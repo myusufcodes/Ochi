@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import About from './sections/About'
+import FeaturedProjects from './sections/FeaturedProjects'
 import Hero from './sections/Hero'
 import Marquee from './sections/Marquee'
 import Play from './sections/Play'
@@ -13,6 +14,7 @@ const App = () => {
         <Marquee />
         <About />
         <Play />
+        <FeaturedProjects />
       </section>
     </main>
   )

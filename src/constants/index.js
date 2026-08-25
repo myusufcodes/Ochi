@@ -56,3 +56,31 @@ export const socials = [
         link:'#'
     },
 ]
+
+
+export const featuredProjects = [
+    {
+        project1: {
+            title: 'Salience Labs',
+            img: '/p1.avif',
+            tags: ['Brand identity', 'Pitch deck', 'Strategy', 'Website']
+        },
+        project2: {
+            title: 'Madialla Experiment',
+            img: '/p2.png',
+            tags: ['Conference', 'Executive Keynote', 'Product Launch']
+        }
+    },
+    {
+        project1: {
+            title: 'Soma energy',
+            img: '/p3.png',
+            tags: ['Brand identity', 'Pitch deck', 'Strategy']
+        },
+        project2: {
+            title: 'Ah2 & Matt horn',
+            img: '/p4.png',
+            tags: ['Pitch Deck']
+        }
+    }
+]
