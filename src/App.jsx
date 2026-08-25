@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import About from './sections/About'
 import Hero from './sections/Hero'
 import Marquee from './sections/Marquee'
+import Play from './sections/Play'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <Marquee />
         <About />
+        <Play />
       </section>
     </main>
   )

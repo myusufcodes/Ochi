@@ -5,7 +5,7 @@ import { about, socials } from "../constants"
 const About = () => {
     const [isHovered, setIsHovered] = useState(false)
   return (
-    <section id="about" className="bg-[#CDEA68] rounded-tl-2xl rounded-tr-2xl py-24 text-[#141f1a]">
+    <section id="about" className="bg-[#CDEA68] rounded-tl-2xl rounded-tr-2xl pt-24  text-[#141f1a]">
         <div className="title font-[font1] text-[50px] leading-[52px] px-12">
             We craft category-defining presentations, brand <br />
             identities, and digital experiences that <span className="underline underline-offset-4 decoration-2">drive funding</span>, <br />
