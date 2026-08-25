@@ -52,7 +52,7 @@ const FeaturedProjects = () => {
 
                                 <div className="tag-container flex items-center gap-3">
                                     {project1.tags.map((tag) => (
-                                        <Tags text={tag} />
+                                        <Tags text={tag} textClass="group-hover:text-white" animateddivClass="bg-[#212121]" containerClass="border border-[#212121]/30 px-4 py-1.5"/>
                                     ))}
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const FeaturedProjects = () => {
 
                                 <div className="tag-container flex items-center gap-3">
                                     {project2.tags.map((tag) => (
-                                        <Tags text={tag} />
+                                        <Tags text={tag} textClass="group-hover:text-white" animateddivClass="bg-[#212121]" containerClass="border border-[#212121]/30 px-4 py-1.5"/>
                                     ))}
                                 </div>
                             </div>

@@ -41,19 +41,19 @@ export const about = [
 export const socials = [
     {
         social: 'Instagram',
-        link:'#'
+        link: '#'
     },
     {
         social: 'Behance',
-        link:'#'
+        link: '#'
     },
     {
         social: 'Facebook',
-        link:'#'
+        link: '#'
     },
     {
         social: 'Linkedin',
-        link:'#'
+        link: '#'
     },
 ]
 
@@ -82,5 +82,27 @@ export const featuredProjects = [
             img: '/p4.png',
             tags: ['Pitch Deck']
         }
+    }
+]
+
+export const cards = [
+    {
+        img: '/card2.svg',
+        btnText: 'Rating 5.0 on Clutch'
+    },
+    {
+        img: '/card3.png',
+        btnText: 'Business Bootcamp Alumni'
+    }
+]
+
+export const location = [
+    {
+        line1: '202-1965 W 4th Ave',
+        line2: 'Vancouver, Canada',
+    },
+    {
+        line1: '30 Chukarina St',
+        line2: 'Lviv, Ukraine'
     }
 ]
