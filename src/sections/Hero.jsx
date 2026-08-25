@@ -1,15 +1,16 @@
+import { motion } from 'framer-motion'
 const Hero = () => {
     return (
-        <section id='hero' className='w-full mt-36 mb-[28px] flex flex-col gap-[80px]'>
+        <section data-scroll data-scroll-speed="-.5" id='hero' className='w-full mt-36 mb-[28px] flex flex-col gap-[80px]'>
             <div className="hero-heading px-12">
                 <h1 className='font-[font2] text-[140px] leading-[110px] text-[#212121] uppercase '>
                     <div>
                         We Create
                     </div>
                     <div className='flex justify-start items-center gap-4'>
-                        <div className='image w-[140px] h-[90px] overflow-hidden rounded-lg flex justify-center items-center relative top-2'>
-                        <img src="/heroImg.jpg" alt="Hero" className='w-full h-full object-cover'/>
-                        </div>
+                        <motion.div initial={{width: 0}} animate={{width: '140px'}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='image w-[140px] h-[90px] overflow-hidden rounded-lg flex justify-center items-center relative top-2'>
+                            <img src="/heroImg.jpg" alt="Hero" className='w-full h-full object-cover' />
+                        </motion.div>
                         Eye-Opening
                     </div>
                     <div>
@@ -24,7 +25,7 @@ const Hero = () => {
                     <button className='group uppercase flex justify-center items-center cursor-pointer gap-1'>
                         <div className='group-hover:bg-[#212121] group-hover:text-white rounded-full px-3 py-0.5 border transition-all duration-300'>Start the project</div>
                         <div className='group-hover:bg-[#212121] rounded-full p-2 border transition-all duration-300'>
-                            <img src="/arrow.png" alt="arrow" width={10} className="group-hover:invert transition-all duration-300" />
+                            <img  src="/arrow.png" alt="arrow" width={10} className="group-hover:invert transition-all duration-300" />
                         </div>
                     </button>
                 </div>

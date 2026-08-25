@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='footer-copyrights w-full flex justify-between items-center px-12 pb-8'>
+            <div className='footer-copyrights w-full flex justify-between items-center px-12 pb-4'>
                 <img src="/logo.svg" alt="Logo" />
                 <span className='flex justify-center items-center gap-2 text-[#b7b6b6]'>
                     © ochi design 2026. <span className='underline'><a href="#">Legal Terms</a></span>
