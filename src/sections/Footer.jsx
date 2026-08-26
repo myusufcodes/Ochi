@@ -82,7 +82,7 @@ const Footer = () => {
                 <span className='flex justify-center items-center gap-2 text-[#b7b6b6]'>
                     © ochi design 2026. <span className='underline'><a href="#">Legal Terms</a></span>
                 </span>
-                <span className="underline text-[#b7b6b6] cursor-pointer">Website by Yusuf</span>
+                <span className="underline text-[#b7b6b6] cursor-pointer">Website by Obys</span>
             </div>
         </footer>
     )

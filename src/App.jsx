@@ -10,6 +10,7 @@ import Play from './sections/Play'
 import LocomotiveScroll from 'locomotive-scroll';
 
 const App = () => {
+
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <main className='w-full h-screen bg-zinc-900 relative'>
