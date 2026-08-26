@@ -3,7 +3,7 @@ import Tags from '../components/Tags'
 
 const Contact = () => {
   return (
-    <section data-scroll data-scroll-speed=".7" id="contact" className='bg-[#CDEA68] flex justify-center items-center relative rounded-tl-2xl rounded-tr-2xl relative z-2'>
+    <section data-scroll data-scroll-speed=".4" id="contact" className='bg-[#CDEA68] flex justify-center items-center relative rounded-tl-2xl rounded-tr-2xl relative z-11'>
         <div className="container flex flex-col gap-12 justify-center items-center py-34">
             <h1 className='font-[font2] text-[240px] leading-[180px] uppercase text-center '>
                 Ready <br />
