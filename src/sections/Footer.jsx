@@ -2,7 +2,7 @@ import { location, navLinks, socials } from '../constants'
 
 const Footer = () => {
     return (
-        <footer data-scroll data-scroll-speed="-.4" className='overflow-hidden reltaive z-15'>
+        <footer data-scroll data-scroll-speed="-.4" className='overflow-hidden relative z-15'>
             <div className='px-12 py-24 flex'>
                 <div className='heading font-[font2] text-[150px] leading-[120px] w-1/2 uppercase'>
                     Eye- <br />
